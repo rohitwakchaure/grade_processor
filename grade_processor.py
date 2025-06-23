@@ -25,7 +25,7 @@ st.header("Operations")
 
 # Map: Grade adjustment
 st.subheader("Map: Grade Adjustment")
-curve = st.slider("Add curve to all grades:", -10, 20, 0)
+curve = st.slider("Add curve to all grades:", -15, 30, 0)
 curved_grades = list(map(lambda x: x + curve, grades))
 st.write(f"Curved Grades: {curved_grades}")
 
